@@ -19,6 +19,11 @@ a {
     color: currentColor;
 }
 
+a:hover{
+    text-shadow: 0 0 10px rgb(0, 214, 221);
+    color: cadetblue;
+}
+
 .marginAuto {
     max-width: 1400px;
     margin-left: auto;
@@ -121,6 +126,12 @@ svg {
     max-height: 20px;
     margin : 0px 8px 0px 8px;
 }
+
+.sombraTexto :hover {
+    text-shadow: 0 0 20px #f50b0b;
+    color: rgb(164, 247, 250);
+}
+
 
 @media (min-width: 601px) {
     .w3-col.m1 {
